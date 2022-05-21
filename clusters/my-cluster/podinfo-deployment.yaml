@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: essl-wiki
-          image: sjagau/essl-wiki
+          image: sjagau/essl-wiki:main
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
