@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: essl-wiki
-          image: sjagau/essl-wiki:main
-          imagePullPolicy: IfNotPresent
+          image: sjagau/essl-wiki:1.0.0 # {"$imagepolicy": "flux-system:essl-wiki"}
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 80
